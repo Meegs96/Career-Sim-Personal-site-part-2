@@ -1,7 +1,23 @@
-body {
+nav{
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    padding: 15px;
+    align-items: center;
+    color: darkgreen;
+    background-color: azure;
 
 }
+img{
+    align-content: center;
+    height: 500px;
+}
 
-img {
 
+body { background-color: blanchedalmond;
+
+}
+p{
+    font: 1em sans-serif;
+    height: 25px;
 }
