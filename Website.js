@@ -1,3 +1,3 @@
 /*test commit*/
-alert('Hellow, World!');
+alert('Hello, World!');
 
