@@ -11,8 +11,12 @@ nav{
 img{
     align-content: center;
     height: 500px;
+    width: 500px;
 }
-
+.img source{
+    height: 400px;
+    width: 400px;
+}
 
 body { background-color: blanchedalmond;
 
@@ -29,6 +33,26 @@ form {
 
 textarea {
     font-size: 16px;
-    width: 50%;
+    width: 20%;
 }
 
+main{
+    display: flex;
+    flex-direction: column;
+}
+
+@media screen and (max-width: 480px) {
+    .project {
+      width: 100%;
+    }
+    
+.links {
+    font-size: 30px;
+}
+
+.about-section:nth-of-type(n) > img.about-img {
+    float: unset;
+    margin: unset;
+    width: 30%;
+    height: 30%
+  }
